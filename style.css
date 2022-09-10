@@ -1,9 +1,29 @@
 body {
   margin: 0;
   background-color: rgba(153, 143, 143, 0.946);
+  min-height: 100vh;
+  display:flex;
+    justify-content:center;
+    align-items:center;
 }
 h1 {
     color: #dddddd;
+    background-color:rgba(202, 17, 17, 0.652);
+    display:inline-block;
     font-size: 2rem;
+    padding:5px;
     font-style: italic;
+    border-radius: 20px;
+    animation:myAnime 5s linear 2s infinite alternate;;
+
+}
+@keyframes myAnime{
+from{
+    transform:scale(0.5);
+    color:green;
+}
+to {
+    transform:scale(1.5);
+    color:#dddddd;
+}
 }
