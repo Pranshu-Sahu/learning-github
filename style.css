@@ -4,4 +4,6 @@ body {
 }
 h1 {
     color: #dddddd;
+    font-size: 2rem;
+    font-style: italic;
 }
