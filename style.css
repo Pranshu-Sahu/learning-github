@@ -14,16 +14,16 @@ h1 {
     padding:5px;
     font-style: italic;
     border-radius: 20px;
-    animation:myAnime 5s linear 2s infinite alternate;;
+    animation:myAnime 5s ease-in-out 2s infinite alternate;
 
 }
 @keyframes myAnime{
 from{
-    transform:scale(0.5);
+    transform:scale(0.5) skew(10deg, 30deg) rotate(-90deg);
     color:green;
 }
 to {
-    transform:scale(1.5);
+    transform:scale(1.5) skew(0deg, 0deg) rotate(0deg);
     color:#dddddd;
 }
 }
