@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: rgba(153, 143, 143, 0.946);
+  background-color: rgba(172, 60, 172, 0.652);
   min-height: 100vh;
   display:flex;
     justify-content:center;
@@ -14,29 +14,16 @@ h1 {
     padding:5px;
     font-style: italic;
     border-radius: 20px;
-<<<<<<< HEAD
-    animation:myAnime 5s linear 2s infinite alternate;
-    /* transform: rotate(180deg); */
-=======
     animation:myAnime 5s ease-in-out 2s infinite alternate;
->>>>>>> crazyStyling
 
 }
 @keyframes myAnime{
 from{
-<<<<<<< HEAD
-    transform:scale(0.5) rotate(0deg);
+    transform:scale(0.5)  rotate(-90deg);
     color:green;
 }
 to {
-    transform:scale(1.5) rotate(360deg);
-=======
-    transform:scale(0.5) skew(10deg, 30deg) rotate(-90deg);
-    color:green;
-}
-to {
-    transform:scale(1.5) skew(0deg, 0deg) rotate(0deg);
->>>>>>> crazyStyling
+    transform:scale(1.5) rotate(0deg);
     color:#dddddd;
 }
 }
